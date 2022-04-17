@@ -1,0 +1,121 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.information {
+  width: 500px;
+  margin-top: 2rem;
+  border: 1px solid #333;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  margin-bottom: 2rem;
+}
+
+.information label {
+  padding: 1rem 0 0.5rem 0;
+  text-align: left;
+}
+
+.information input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.information button {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: #333;
+  border: 1px solid #333;
+  width: 300px;
+  display: block;
+  cursor: pointer;
+}
+
+.information button:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.divider {
+  border: 1px solid #fff;
+  width: 100vw;
+}
+
+.showEmployee {
+  margin-top: 2rem;
+  border: 1px solid #888;
+  width: 900px;
+  height: 500px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.btnEmployee {
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #444;
+  width: 200px;
+  height: 50px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.btnEmployee:hover {
+  background-color: salmon;
+  color: #eee;
+  border: none;
+  transition: 0.3s ease-out;
+}
+
+.employeeList {
+  color: #eee;
+}
+
+.employees {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #888;
+  padding: 1rem;
+}
+
+.employees li {
+  list-style: none;
+  padding: 1rem;
+}
+
+/* table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+} */
